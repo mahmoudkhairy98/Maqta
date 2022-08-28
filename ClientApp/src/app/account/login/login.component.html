@@ -1,0 +1,27 @@
+<div class="d-flex justify-content-center mt-5">
+    <div class="col-3">
+        <form [formGroup]="loginForm" (ngSubmit)="onSubmit()" style="width: 22rem;">
+            <!-- Email input -->
+            <div class="form-outline mb-4">
+              <label class="form-label" for="form2Example1" style="margin-left: 0px;">Email address</label>
+              <input formControlName="email" type="email" id="form2Example1" class="form-control">
+              <div class="alert alert-danger" *ngIf="!loginForm.get('email').value && loginForm.get('email').touched">Required</div>
+            <div class="form-notch"><div class="form-notch-leading" style="width: 9px;"></div><div class="form-notch-middle" style="width: 88.8px;"></div><div class="form-notch-trailing"></div></div></div>
+            
+            <!-- Password input -->
+            <div class="form-outline mb-4">
+              <label class="form-label" for="form2Example2" style="margin-left: 0px;">Password</label>
+              <input formControlName="password" type="password" id="form2Example2" class="form-control">
+              <div class="alert alert-danger" *ngIf="!loginForm.get('password').value && loginForm.get('password').touched">Required</div>
+            <div class="form-notch"><div class="form-notch-leading" style="width: 9px;"></div><div class="form-notch-middle" style="width: 64.8px;"></div><div class="form-notch-trailing"></div></div></div>
+    
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-primary btn-block mb-4">Sign in</button>
+    
+            <!-- Register buttons -->
+            <div class="text-center">
+              <p class="alert alert-danger" *ngIf="Message">{{Message}}</p>
+            </div>
+          </form>
+    </div>
+</div>

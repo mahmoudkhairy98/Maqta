@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{36149336-31F1-4200-A40C-F21E0BBEBEB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{64064D5E-B32B-4D98-A563-7068F6CB8899}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{A36C1C1D-ED6E-4550-AE84-7DE1CC386B70}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36149336-31F1-4200-A40C-F21E0BBEBEB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36149336-31F1-4200-A40C-F21E0BBEBEB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36149336-31F1-4200-A40C-F21E0BBEBEB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36149336-31F1-4200-A40C-F21E0BBEBEB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64064D5E-B32B-4D98-A563-7068F6CB8899}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64064D5E-B32B-4D98-A563-7068F6CB8899}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64064D5E-B32B-4D98-A563-7068F6CB8899}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64064D5E-B32B-4D98-A563-7068F6CB8899}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A36C1C1D-ED6E-4550-AE84-7DE1CC386B70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A36C1C1D-ED6E-4550-AE84-7DE1CC386B70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A36C1C1D-ED6E-4550-AE84-7DE1CC386B70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A36C1C1D-ED6E-4550-AE84-7DE1CC386B70}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {13BCE620-F675-4313-A5A6-35C30422C1CE}
+	EndGlobalSection
+EndGlobal
